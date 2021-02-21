@@ -1,0 +1,171 @@
+/*Цвет основного текста rgba(33, 33, 33, 1);*/
+/*Вторичный цвет текст rgba(117, 117, 117, 1)*/
+/* Акцент #2196F3; */
+/* Вторичный акцент текста rgba(33, 150, 243, 1); */
+/* Цвет текста подвала основной #FFFFFF;*/
+/* Цвет текста подвала вторичный rgba(255, 255, 255, 0.6);*/
+/* Цвет кнопки Все rgba(33, 150, 243, 1) */
+/* Цвет текста кнопки rgba(255, 255, 255, 1); */
+:root {
+    --primari-text-color:rgba(33, 33, 33, 1);
+    --title-text-color:rgba(117, 117, 117, 1);
+    --accent-color: #2196F3;
+    --accent-color-title: rgba(33, 150, 243, 1);
+    --button-white-color: rgba(245, 244, 250, 1);
+    --contact-white-color:rgba(255, 255, 255, 0.6);
+    --maine-contact-white-color:#FFFFFF;
+}
+body {
+    background-color: white;
+    color: var(--primari-text-color);
+    font-family: Roboto, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.list {
+   list-style: none; 
+}
+.accent {
+color: var(--accent-color);
+}
+
+/* Логотип */
+.logo {
+color: var(--primari-text-color);
+font-family:Raleway, sans-serif;
+font-size: 26px;
+line-height: 1.19;
+}
+.pats-logo {
+color: var(--maine-contact-white-color);
+}
+.site-nav .link {
+color: var(--primari-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+color: var(--accent-color-title);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color-title);
+}
+
+.contacts .link{
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+
+}
+
+.feature .title {
+color: var(--primari-text-color);
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+}
+.feature .subtitle {
+color: var(--title-text-color);
+font-size: 16px;
+line-height: 1.9;
+}
+/* button */
+.button {
+    color: var(--primari-text-color);
+    background-color: var(--button-white-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+} 
+.button:hover, 
+.button:focus {
+color: var(--button-white-color);
+background-color: var(--accent-color);
+}
+
+.contacts-footer .link {
+    color: var(--contact-white-color);
+    font-size: 14px;
+line-height: 1.7;
+}
+.contact-place {
+    color: var(--maine-contact-white-color);
+    font-style: normal;
+    font-size: 14px;
+line-height: 1.7;
+}
+/*Подключаю стили для Студия */
+
+.contacts .link:hover, 
+.contacts .link:focus {
+    color: var(--accent-color-title);
+}
+
+.contacts .link.current {
+    color: var(--accent-color-title);
+}
+
+.main-info-title {
+    color: var(--maine-contact-white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+}
+.bold.button {
+     background-color: var(--accent-color);
+    color: var(--button-white-color);
+    font-weight: bold;
+font-size: 16px;
+line-height: 1.9;
+}
+.content .title {
+  color: var(--primari-text-color);  
+  font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+}
+.content .subtitle {
+  color: var(--title-text-color);
+font-size: 14px;
+line-height: 1.7;
+}
+
+.what-doing {
+    color: var(--primari-text-color);
+    font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+.our-team {
+   color: var(--primari-text-color); 
+   font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+.photo-team .title {
+    color: var(--primari-text-color); 
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.photo-team .subtitle {
+    color: var(--title-text-color); 
+    font-size: 16px;
+line-height: 1.19;
+}
+.bcg-blue {
+    background: #2F303A;
+}
+footer{
+background: #2F303A;
+}
